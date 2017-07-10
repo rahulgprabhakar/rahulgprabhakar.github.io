@@ -36,6 +36,15 @@ a:visited {
    border: 10px solid green;
    padding: 0px;
 }
+input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px
+}
+input[type="submit"] {
+      background: blue;
+      color: white;
+}
 
 img:hover {
    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
