@@ -19,4 +19,17 @@ a:link {
 
 a:visited {
    color: red;
- 
+}
+   ul {
+  
+   padding: 50px;
+      background: blue;
+      font-size: 35px;}
+  position: absolute;
+  ul {list-style:none;
+     
+    }
+  a {
+      display: inline;
+      padding: 0px 10px 10px 10px;
+    }
