@@ -6,8 +6,13 @@
        height: 200px;
        color: yellow;
        font-size: 50px;
+       font-family: cursive
  
  }
+  a {
+      display: inline;
+      padding: 0px 10px 10px 10px;
+    }
   ul {list-style:none;
     }
  
@@ -20,10 +25,15 @@ a:visited {
    color: orange;
 }
  ul {
-  font-size: 20px;}
+  
+   padding: 50px;
+      background: red;
+      font-size: 20px;}
   position: absolute;
   ul {list-style:none;
+     
     }
+
    
     body  {
      background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAF8AXwMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAABAgMABAb/xAA0EAACAgADBgUCBQMFAAAAAAABAgARAxIhIjFBcYGREzJRUmFCoSMzU3LhFLHRBEOCkqL/xAAYAQEBAQEBAAAAAAAAAAAAAAABAAIGBf/EAB0RAQEBAAICAwAAAAAAAAAAAAABESExElFBcYH/2gAMAwEAAhEDEQA/APcZR7vtIsHzGjY7TpBsAnLu9ZJsNiTT0Oc5HHsxO8YeXDFdY+GcQnbwx3/mA4bjdif+hGwsyE+JiKw/dDDVNldToB8TeLhUdoXyiFkJpTZg2x9P3m5QYY/LsZs+YaYxB5Rw+n5fYiIfCJ2sM3zEL9pF3a6zvXObCar3tfqZT8MHZXoWhVS50CLA6CkE66c42h+tYDhsDvUxc2XzLIHUAgWTda6RhhYY1y30MUhvd95MuVNZyI9JZlI/LRK+RFZsRDbeGOHlMn4pP1ntAc+JoGutdYW+liv9QwHmQ/AUwPj50KEaH0P8Sa4LgksQesDYTH2gc4bVkUXC0vK5/wCQ/wAQWwNZW6wC/wBfvHq92Ip6zWEnglje3r6EQPgutZA55kSgvccQA+lzMMT6cUEc5eM9Bz3iqfJfONeL7R2hrGvaah63HTOGs4gI9JnGhVmUUu4fMcZiN6iHZ4YY7yJOKrG2AHoZrpntRsJ2rVekm2Hjr5TfxcIxmGhy9yJmxDYrQ/uhTyXL/qN5uv3D/MZfGG5V7iJiO+WzrzJMkuIbBKMa9NIfpx1eHiEajnqImVSdbmXH9MMjrLBQQCKAM1xQVFA1DOJsR8OsrZyOkDYbZtcQRcRGwwPxAQZbgKRgkbKnvBlW9BMhANsmaUDJ+jDinRBAGrHpGyg6kXfEiKFIFWLgIfcHFTXQEqvtEBRD5RRi5XvzXNtjhZ5TOk2Q+v3myn1PeAs1flr2mBT2H/vFN4TAb3PIwhKGoe/3iN4qe09WMwxU4gd5ZBymSt0VNj5g38CJQ42GPKinrUR8XOtIlEHgZVcl2twEP4g4EjpMis5GrDvH8I+/7zMlpVycaMwReOboYAFA85PWAV+oL5zTIlUB3uK9IQR7mMk+j6LfzURhmN2RLTi7sANosAdJAjB4FopAA3kzLmsUveFpY1wJki4O6zOnaP0qJiiAWVHRZnKdcyMp33fxL4RVGLLYNQEploKB0EUIH/3Msuk6Vxj8Q2DOZFCm/EDabiI60TvE15DFaf1EmGQ776CVz1vgD+iiIBEBGit94+UccxPwbgYM+gAHS5LEBSgCO0uEd8oBsOOYk8wBtXI6QW3u6R9CNpVPKXFTZsQ7n+1RlLniLijBVt2kb+mJs+IZLYkQMxu7vXTjGVRfkY9IGw3U0HmQ4qNfm+LhMKyIt+VusbKOH9pIY5J2kqvmMMQn6RHZ8DK//9k=");
@@ -50,4 +60,5 @@ button {
 img:hover {
    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
     }
+
   
