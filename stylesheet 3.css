@@ -21,12 +21,14 @@ a:visited {
    color: red;
 }
    ul {
-  
-   padding: 50px;
-      background: blue;
+   border: 10px solid green;
+  padding: 20px;
       font-size: 35px;}
   position: absolute;
   ul {list-style:none;
+ 
+  
+  
      
     }
   a {
