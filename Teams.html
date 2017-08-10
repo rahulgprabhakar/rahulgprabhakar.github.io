@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <title>Teams in Cricket</title>
+    <h1>Teams In Cricket</h1>
+    <button type="button">India</button>
+
+    <div id="mydiv" style="position:absolute;left:100;top:100">
+<input type="button">
+</div>
+<p>test</p>
+<script>
+ $(function () 
+    {
+        $("p, button").click(function () 
+        {
+           $("p").toggle();
+        })
+    });
+function show(){
+if(document.layers) document.layers['mydiv'].visibility="show";
+if(document.getElementById) document.getElementById("mydiv").style.visibility="visible";
+if(document.all) document.all.mydiv.style.visibility="visible";
+}
+
+function hide(){
+if(document.layers) document.layers['mydiv'].visibility="hide";
+if(document.getElementById) document.getElementById("mydiv").style.visibility="hidden";
+if(document.all) document.all.mydiv.style.visibility="hidden";
+}
+function myFunction() {
+    return this;
+}
+<div id="blarg" class="blarg" style="visibility: visible;">
+    <p class="test" style="display: block;">If you click on me, I will disappear.</p>
+    <p class="test" style="display: block;">Click me away!</p>
+    <p class="test" style="display: block;">Click me too!</p>
+</div>
+
+myFunction(... onclick="show()"...
+... onclick="hide()"...);  
+</script>
+</html>
