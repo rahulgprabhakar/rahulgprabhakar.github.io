@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+ <style>
+body{
+    background-image: url("http://www.zingerbug.com/Backgrounds/background_images/kelly_green_screen_seamless.jpg");
+    text-align: left;
+    color: white;
+}
+    table, th, td {
+    border: 3px solid gold;
+     border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    
+}
+button {
+   background-color: gold;
+    border: none;
+    color: green;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("h3").hide();
+    });
+    $("#show").click(function(){
+        $("h3").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("img").hide();
+    });
+    $("#show").click(function(){
+        $("img").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("table").hide();
+    });
+    $("#show").click(function(){
+        $("table").show();
+    });
+});
+</script>
+</head>
+<body>
+<h2>Australia Cricket Team</h2>
+<button name="button 1" id="show">Show</button>
+<button name="button 2"id="hide">Hide </button>
+<p>The Australia national cricket team, represents the country of Australia in international cricket. It is the joint oldest team in Test cricket history, having played in the first ever Test match in 1877. The team also plays One Day International cricket and Twenty20 International, participating in both the first ODI, against England in the 1970–71 season and the first Twenty20 International, against New Zealand in the 2004–05 season, winning both games. The team draws its players from teams playing in the Australian domestic competitions – the Sheffield Shield, the Australian domestic limited-overs cricket tournament and the Big Bash League.</p>
+<img src="https://upload.wikimedia.org/wikipedia/en/e/e2/Cricket_Australia_Logo.png">
+<h3>History</h3>
+<p>The Australian cricket team participated in the first Test match at the MCG in 1877, defeating an English team by 45 runs, with Charles Bannerman making the first Test century, a score of 165 retired hurt. Test cricket, which only occurred between Australia and England at the time, was limited by the long distance between the two countries, which would take several months by sea. Despite Australia's much smaller population, the team was very competitive in early games, producing stars such as Jack Blackham, Billy Murdoch, Fred "The Demon" Spofforth, George Bonnor, Percy McDonnell, George Giffen and Charles "The Terror" Turner. Most cricketers at the time were either from New South Wales or Victoria, with the notable exception of George Giffen, the star South Australian all-rounder.</p>
+<table style="width:100%">
+ <h3>Test Match Rank </h3>
+ <p>4th  Place</p>
+  <tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>3,087</td>
+    <td>100</td>
+</table>
+<h3>ODI</h3>
+<p>2nd Place</p>
+<table style="width:100%">
+<tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>47</td>
+    <td>5,505</td>
+    <td>117</td>
+</table>
+<h3>T20</h3>
+<p>6th Place</p>
+<table style="width:100%">
+<tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>1,431</td>
+    <td>110</td>
+</table>
+</body>
+</html>

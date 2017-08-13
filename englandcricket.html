@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+ <style>
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2015/05/29/16/36/seamless-tiling-clouds-789451_960_720.jpg");
+    text-align: left;
+    color: white;
+}
+    table, th, td {
+    border: 3px solid blue;
+     border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    
+}
+button {
+   background-color: blue;
+    border: none;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("h3").hide();
+    });
+    $("#show").click(function(){
+        $("h3").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("img").hide();
+    });
+    $("#show").click(function(){
+        $("img").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("table").hide();
+    });
+    $("#show").click(function(){
+        $("table").show();
+    });
+});
+</script>
+</head>
+<body>
+<h2>England Cricket Team</h2>
+<button name="button 1" id="show">Show</button>
+<button name="button 2"id="hide">Hide </button>
+<p>The England cricket team represents England and Wales (and until 1992 also Scotland) in international cricket. Since 1 January 1997 it has been governed by the England and Wales Cricket Board (ECB), having been previously governed by Marylebone Cricket Club (MCC) from 1903 until the end of 1996.</p>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/England_cricket_team_logo.svg/546px-England_cricket_team_logo.svg.png" width="350" height="350">
+<h3>History</h3>
+<p>The first recorded incidence of a team with a claim to represent England comes from 9 July 1739 when an "All-England" team, which consisted of 11 gentlemen from any part of England exclusive of. Kent, played against "the Unconquerable County" of Kent and lost by a margin of "very few notches".Such matches were repeated on numerous occasions for the best part of a century.</p>
+<table style="width:100%">
+ <h3>Test Match Rank </h3>
+ <p>3rd Place</p>
+  <tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>39</td>
+    <td>4,097</td>
+    <td>105</td>
+</table>
+<h3>ODI</h3>
+<p>9th Place</p>
+<table style="width:100%">
+<tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>5,645</td>
+    <td>113</td>
+</table>
+<h3>T20</h3>
+<p>4th Place</p>
+<table style="width:100%">
+<tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>1,962</td>
+    <td>123</td>
+</table>
+</body>
+</html>

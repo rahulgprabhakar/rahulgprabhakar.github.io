@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+body{
+    background-image: url("http://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png");
+    text-align: left;
+    color: white;
+}
+    table, th, td {
+    border: 3px solid blue;
+     border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    
+}
+button {
+   background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+</style>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("h3").hide();
+    });
+    $("#show").click(function(){
+        $("h3").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("img").hide();
+    });
+    $("#show").click(function(){
+        $("img").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("table").hide();
+    });
+    $("#show").click(function(){
+        $("table").show();
+    });
+});
+</script>
+</head>
+<body>
+<h2>Indian Cricket Team</h2>
+<button name="button 1" id="show">Show</button>
+<button name="button 2"id="hide">Hide </button>
+<p>The India national cricket team, also known as Team India and Men in Blue, represents India in international cricket. Governed by the Board of Control for Cricket in India (BCCI), it is a full member of the International Cricket Council (ICC) with Test, One Day International (ODI) and Twenty20 International (T20I) status.</p>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Cricket_India_Crest.svg/1032px-Cricket_India_Crest.svg.png" width="350" height="350";>
+<h3>History</h3>
+<p>The British brought cricket to India in the early 1700s, with the first cricket match played in 1721.In 1848, the Parsi community in Bombay formed the Oriental Cricket Club, the first cricket club to be established by Indians. After slow beginnings, the Europeans eventually invited the Parsis to play a match in 1877. By 1912, the Parsis, Sikhs, Hindus and Muslims of Bombay played a quadrangular tournament with the Europeans every year. In the early 1900s, some Indians went on to play for the England cricket team. Some of these, such as Ranjitsinhji and KS Duleepsinhji were greatly appreciated by the British and their names went on to be used for the Ranji Trophy and Duleep Trophy, two major first-class tournaments in India. In 1911, an Indian team went on their first official tour of the British Isles, but only played English county teams and not the England cricket team.</p>
+<table style="width:100%">
+ <h3>Test Match Rank </h3>
+ <p>1st Place</p>
+  <tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>3,925</td>
+    <td>123</td>
+</table>
+<h3>ODI</h3>
+<p>3rd Place</p>
+<table style="width:100%">
+<tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>40</td>
+    <td>4,579</td>
+    <td>114</td>
+</table>
+<h3>T20</h3>
+<p>5th Place</p>
+<table style="width:100%">
+<tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>2,183</td>
+    <td>115</td>
+</table>
+</body>
+</html>

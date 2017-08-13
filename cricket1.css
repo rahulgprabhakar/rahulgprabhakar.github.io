@@ -5,3 +5,8 @@ h1 {
     
     
 }
+ul {
+    text-align: right;
+    color: maroon;
+    background-color: beige;
+}
