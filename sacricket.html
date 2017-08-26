@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+ <style>
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfEVgeF2R8Wd4Llj2q-78I80Fo3GFHy0l47hRHyfMsi-sX6y2tWg");
+    text-align: left;
+    color: black;
+}
+    table, th, td {
+    border: 3px solid #392589;
+     border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    
+}
+button {
+   background-color: #392589;
+    border: none;
+    color: gold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("h3").hide();
+    });
+    $("#show").click(function(){
+        $("h3").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("img").hide();
+    });
+    $("#show").click(function(){
+        $("img").show();
+    });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("table").hide();
+    });
+    $("#show").click(function(){
+        $("table").show();
+    });
+});
+</script>
+</head>
+<body>
+<h2>Sri Lanka Cricket Team</h2>
+<button name="button 1" id="show">Show</button>
+<button name="button 2"id="hide">Hide </button>
+<p>The Sri Lanka national cricket team, nicknamed The Lions, is a full member of the International Cricket Council (ICC) with Test and One Day International (ODI) status. The team first played international cricket in 1926-27, and were later awarded Test status in 1982, which made Sri Lanka the eighth Test cricket playing nation. The team is administered by Sri Lanka Cricket. Dinesh Chandimal is the current captain in Tests and Upul Tharanga in ODIs and Twenty20 Internationals (T20Is).</p>
+<img src="http://img.freeflagicons.com/thumb/round_icon/sri_lanka/sri_lanka_640.png" width="350" height="350">
+<h3>History</h3>
+<p>Sri Lanka were awarded Test cricket status in 1981, by the International Cricket Council. They played their first Test match against England at P.Saravanamuttu Stadium, Colombo on 17 February 1982. B.Warnapura was the captain for Sri Lanka in that match, which England was victorious by 7 wickets.</p>
+<table style="width:100%">
+ <h3>Test Match Rank </h3>
+ <p>4th  Place</p>
+  <tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>2,937</td>
+    <td>92</td>
+</table>
+<h3>ODI</h3>
+<p>7th Place</p>
+<table style="width:100%">
+<tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>36</td>
+    <td>2,824</td>
+    <td>78</td>
+</table>
+<h3>T20</h3>
+<p>8th Place</p>
+<table style="width:100%">
+<tr>
+    <th>Matches</th>
+    <th>Points</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>1,896</td>
+    <td>95</td>
+</table>
+</body>
+</html>
